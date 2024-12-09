@@ -1,0 +1,125 @@
+/*Remove unecessary styling for the drilldown chart and sparklines*/
+/*Figure out how to change the font size of the charts*/
+
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+#page-header, #row1{
+    margin: 20px 0px;
+    inline-size: auto;
+}
+
+#page-header #company-name{
+    background-color: green;
+    color: #ebebeb;
+    font-weight: bold;
+}
+#page-header p{
+    border-radius: 2px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    background-color: lightgreen;
+}
+
+#row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    #row1 {
+      flex-direction: column;
+    }
+    #bar-chart-area, #line-chart-area, #bullet-chart-area{
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin: 10px;
+    }
+}
+  
+#table{
+    align-self: center;
+}
+
+#table-overview-body tr:hover{
+    background-color: rgb(202, 255, 202);
+}
+
+#bar-chart-area, #line-chart-area, #bullet-chart-area, #drilldown-chart-area{
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    margin: 15px;
+    padding: 30px;
+    align-self: center;
+}
+
+#drilldown-chart-area{
+    margin: 0px 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #888;
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+}
+
+#bullet-chart-area{
+    margin: 30px;
+}
+
+#container1 {
+    height: 135px;
+}
+
+#container2,
+#container3 {
+    height: 105px;
+}
+
+/*Styling for drilldown chart*/
+#drilldown-chart-area {
+    height: 550px;
+}
+
+/*Styling for sparklines*/
+
+#table-overview{
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+    text-align: left;
+}
+
+td,
+th {
+    padding: 10px 50px;
+    border-bottom: 1px solid silver;
+    height: 20px;
+    text-align: center;
+}
+
+thead th {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.highcharts-tooltip > span {
+    background: white;
+    border: 1px solid silver;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #888;
+    padding: 8px;
+}
+
+.highcharts-title,
+.highcharts-subtitle {
+    text-transform: uppercase;
+}
+

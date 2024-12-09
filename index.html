@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Using CDN for Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--Using CDN for Highcharts-->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/bullet.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+   
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Investment Dashboard</title>
+</head>
+<body>
+    <div class="container-fluid" id="page-header">
+        <div class="col-md-4"><p id="company-name">Company Name</p></div>
+        <div class="col-md-2"><p id="share-price">Share Price Metric#1</p></div>
+        <div class="col-md-2"><p id="market-cap">Market Cap Metric#2</p></div>
+        <div class="col-md-2"><p id="earnings-per-share">EPS Metric#3</p></div>
+        <div class="col-md-2"><p id="rank"> Rank Metric#4</p></div>
+    </div>
+
+    <div class="container-fluid" id ="row1">
+        <div class="col-md-6" id="bar-chart-area"></div>
+        <div class="col-md-6" id="line-chart-area"></div>
+    </div>
+
+    <div class="container-fluid" id="bullet-chart-area">
+        <div id="container1"></div>
+        <div id="container2"></div>
+        <div id="container3"></div>
+    </div>
+
+    <div class="container-fluid" id="table"></div>
+    
+    <div class="container-fluid" id="drilldown-chart-area">
+        <h4>Select a table row</h4>
+    </div>
+
+</body>
+</html>
