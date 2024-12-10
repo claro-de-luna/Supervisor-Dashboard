@@ -421,10 +421,10 @@ plotOptions: {
     series: {
         pointPadding: 0.40, //changes the tickness of the solid plot
         borderWidth: 0,
-        color: '#190000',
+        color: '#03045e',
         targetOptions: {
             width: '600%', //sets the width of the target based on the width of the solid plot
-            color: '#E50000',
+            color: '#03045e',
         },
     },
 },
@@ -447,15 +447,15 @@ options1 = {
         plotBands: [{
             from: 0,
             to: 4,
-            color: '#FFE0E3',
+            color: '#00b4d8',
         }, {
             from: 4,
             to: 7,
-            color: '#FFFFCE',
+            color: '#90e0ef',
         }, {
             from: 7,
             to: 10,
-            color: '#E3FFE9',
+            color: '#ade8f4',
         }],
     },
     series: [{
@@ -478,15 +478,15 @@ options2 = {
         plotBands: [{
             from: 0,
             to: 4,
-            color: '#FFE0E3',
+            color: '#00b4d8',
         }, {
             from: 4,
             to: 7,
-            color: '#FFFFCE',
+            color: '#90e0ef',
         }, {
             from: 7,
             to: 10,
-            color: '#E3FFE9',
+            color: '#ade8f4',
         }],
     },
     series: [{
@@ -510,15 +510,15 @@ options3 = {
         plotBands: [{
             from: 0,
             to: 5,
-            color: '#FFE0E3',
+            color: '#00b4d8',
         }, {
             from: 5,
             to: 8,
-            color: '#FFFFCE',
+            color: '#90e0ef',
         }, {
             from: 8,
             to: 10,
-            color: '#E3FFE9',
+            color: '#ade8f4',
         }],
     },
     series: [{
